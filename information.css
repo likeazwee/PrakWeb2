@@ -1,0 +1,83 @@
+main {
+    background-image: url("eldenringbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+
+/* Navbar styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255); /* Adjusted for transparency */
+}
+
+li {
+    display: inline-block; /* Change float to inline-block for centering */
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #fdff8f;
+}
+
+.elden-ring-logo {
+max-width: 130px; /* Adjust the size as needed */
+width: 100%; /* Make it responsive */
+height: auto; /* Maintain aspect ratio */
+display: block; /* Make it a block element */
+margin: -43px auto; /* Center the image */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.eldenring {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #d4c49e;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.prologue {
+    font-family: 'Garamond', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #d4c49e;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.prologue p {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,51 @@
+main {
+    background-image: url("eldenringbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main h1 {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.navigasi {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255); /* Adjusted for transparency */
+    }
+
+    li {
+        display: inline-block; /* Change float to inline-block for centering */
+    }
+
+    li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #fdff8f;
+    }
+
+.elden-ring-logo {
+    max-width: 130px; /* Adjust the size as needed */
+    width: 100%; /* Make it responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make it a block element */
+    margin: -43px auto; /* Center the image */
+}
+
+}
